@@ -707,10 +707,10 @@ input[type="email"] {
         /* width: 374px; */
         box-sizing: border-box;
     }
-    .email {
+    #email {
         width: 375px;
     }
-    .password {
+    #password {
         width: 375px;
     }
     .retype-password {

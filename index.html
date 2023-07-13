@@ -148,12 +148,15 @@
         </div>
         <div class="signup-forme">
             <h4 class="title-signup-forme">Sign Up</h4>
-            <div class="btn-botton">
-                <button class="button-signup-forme">Start your free trial</button>
-            </div>
-            <div class="email"><input class="email" type="email" placeholder="Your primary email"></div>
-            <div class="password"><input type="password" placeholder="Password"></div>
-            <div class="retype-password"><input type="password" placeholder="Re-type Password"></div>
+            <form action="#" class="registration">
+                <div class="btn-botton">
+                    <button class="button-signup-forme" type="submit">Start your free trial</button>
+                </div>
+                <div id="email"><input class="email" type="email" placeholder="Your primary email"></div>
+                <div id="password"><input id="pass1" type="password" value="qwerty" placeholder="Password"></div>
+                <div id="error"></div>
+                <div id="retype-password"><input id="pass2" type="password" value="qwerty" placeholder="Re-type Password"></div>
+            </form>
             <p class="txt-signup-forme-top">Help us get better</p>
             <div class="star-rating">
                 <input type="radio" id="star-5" name="rating" value="5">
@@ -200,5 +203,6 @@
             </li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
